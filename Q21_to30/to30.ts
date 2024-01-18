@@ -3,7 +3,7 @@ let transport:string = 'Hunda Civic';
 console.log(transport=='Suzuki');// out is False Because the transport isn't Equal to Suzuki. Transoprt is Equal to Hunda Civic.
 
 //Qustion:--write a conditional tests covering dirrerent scenarios. 1 test for equality and inequality with string. 2tests using the lowercase function 3 Numerical tests invaling equality adn inequality, greater than and less than, greater thean or eqal tom and less than or equal to 4 tests using "and" and "OR" Operater . 5 test weather an item is in an array. 6test weather an item is not in array
-let s:string="Hellow";
+let s:string="Hello";
 let g:string="world";
 console.log(`1:\t String conditon test:-- ${s==g}`);
 console.log(`2: \t String to lowerCase conditon test:-- ${s.toLowerCase()==g.toLowerCase()}`);
@@ -34,9 +34,9 @@ console.log(`Using the OR Operater: ${condition1 || condition2}`)
 // checking item is in array or not 
 let weatherarray:number[]=[1,2,3,4,5];
 let search:number=3;
-console.log(`Checking Weather Array 3 is in an Array: ${weatherarray.includes(search)}`)
+console.log(`\t \tChecking Weather Array 3 is in an Array: ${weatherarray.includes(search)}`)
 let search2:number=10;
-console.log(`Checking Weather Array 10 is in an Array: ${weatherarray.includes(search2)}`)
+console.log(`\t \tChecking Weather Array 10 is in an Array: ${weatherarray.includes(search2)}`)
 
 // ############ Alien Color#1 ###########3
 const alien_color:string= 'Green'
